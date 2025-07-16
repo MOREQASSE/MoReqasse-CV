@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Reqasse - Site Personnel</title>
+    <link rel="stylesheet" href="./styleopti2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation Bar with Language Switcher -->
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <span class="nav-logo">Mohammed Reqasse</span>
+            <ul class="nav-links">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="window.location.href='index.html'" title="English"><img src="https://flagcdn.com/gb.svg" alt="English" class="flag-icon"> EN</button>
+                <button onclick="window.location.href='indexFR.html'" title="Français"><img src="https://flagcdn.com/fr.svg" alt="Français" class="flag-icon"> FR</button>
+                <button onclick="window.location.href='indexAR.html'" title="العربية"><img src="https://flagcdn.com/ma.svg" alt="العربية" class="flag-icon"> AR</button>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Basculer le mode clair/sombre" title="Basculer le mode clair/sombre" style="margin-left:16px;background:none;border:none;cursor:pointer;font-size:1.5em;display:flex;align-items:center;">
+                <span id="theme-icon" aria-hidden="true">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="finisher-header"></div>
+        <div class="hero-content">
+            <img src="https://i.ibb.co/LXLK3D5c/Whats-App-Image-2025-04-11-at-15-03-59-12f7a20f-removebg-preview.png" alt="Mohammed Reqasse" class="hero-profile-image">
+            <h1>Mohammed Reqasse</h1>
+            <h2>Étudiant en Génie des Réseaux et Télécommunications</h2>
+            <p class="hero-intro">Passionné par la technologie, l'innovation et la création de solutions qui font la différence. Bienvenue sur mon site personnel !</p>
+            <div class="social-icons-bar">
+                <a href="mailto:reqasse@gmail.com" title="Email" class="social-icon email"><img src="https://icongr.am/fontawesome/envelope.svg?size=24&color=007bff" alt="Email"></a>
+                <a href="https://linkedin.com/in/mohammed-reqasse-860a03219" title="LinkedIn" class="social-icon linkedin" target="_blank"><img src="https://icongr.am/fontawesome/linkedin.svg?size=24&color=007bff" alt="LinkedIn"></a>
+                <a href="https://wa.me/212700821340" title="WhatsApp" class="social-icon whatsapp" target="_blank"><img src="https://icongr.am/fontawesome/whatsapp.svg?size=24&color=007bff" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h3><span class="accent-bar"></span>À propos de moi</h3>
+        <p>Je suis un étudiant de 21 ans à l'ENSA Safi, Maroc, spécialisé en génie des réseaux et télécommunications. J'aime apprendre, relever des défis et collaborer avec les autres. Mes centres d'intérêt incluent la cybersécurité, le développement web et l'administration réseau. Je recherche actuellement un stage d'été pour appliquer et développer mes compétences dans un environnement réel.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <h3><span class="accent-bar"></span>Éducation</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h4>ENSA Safi</h4>
+                <p class="project-meta">Génie des Réseaux et Télécommunications &middot; 2022–Présent</p>
+                <ul>
+                    <li>Diplôme d'ingénieur en cours, spécialisation réseaux et télécommunications.</li>
+                    <li>Cours suivis : Cybersécurité, Administration Réseau, Traitement du Signal.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h4>Faculté Polydisciplinaire de Safi</h4>
+                <p class="project-meta">Physique | Licence SMP &middot; 2021–2022</p>
+                <ul>
+                    <li>Licence en Sciences Mathématiques et Physiques (SMP).</li>
+                    <li>Renforcement des bases en physique, mathématiques et informatique.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h4>Lycée Okba Ibnou Nafiaa - Birjdid</h4>
+                <p class="project-meta">Baccalauréat en Sciences Physiques &middot; 2020–2021</p>
+                <ul>
+                    <li>Obtention du baccalauréat en sciences physiques.</li>
+                    <li>Solides bases en mathématiques, physique et chimie.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h3><span class="accent-bar"></span>Projets <span class="slide-message">Faites défiler pour voir plus &rarr;</span></h3>
+        <div class="projects-carousel-container">
+            <button class="carousel-arrow left" aria-label="Projet précédent" tabindex="0">&#8592;</button>
+            <div class="projects-carousel">
+                <div class="project-card art-frame" data-index="0">
+                    <div class="project-image-placeholder">
+                      <img src="images/TaskExtreme.png" alt="TaskExtreme - Gestionnaire de tâches IA" class="project-image" />
+                    </div>
+                    <h4>TaskExtreme - Gestionnaire de tâches IA</h4>
+                    <p class="project-meta">Projet personnel &middot; 2024</p>
+                    <ul>
+                        <li>Application moderne et mobile de gestion de tâches avec génération intelligente de tâches par IA.</li>
+                        <li>Fonctionnalités : gestion par calendrier, export PDF, mode focus Pomodoro, thèmes clair/sombre.</li>
+                        <li>Backend Node.js/Express pour la génération de tâches IA via Azure GPT-4, supportant descriptions, PDF et Google Sheets.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://moreqasse.github.io/TaskExtreme.ai/" target="_blank" rel="noopener">Voir</a>
+                    <div class="gallery-label">
+                      <span class="label-title">TaskExtreme - Gestionnaire de tâches IA</span><br>
+                      <span class="label-meta">2024 &mdash; Projet personnel</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="1" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/RHEL System Security.png" alt="Projet de Sécurité des Systèmes RHEL" class="project-image" />
+                    </div>
+                    <h4>Projet de Sécurité des Systèmes RHEL</h4>
+                    <p class="project-meta">Membre d'équipe &middot; Nov 2024</p>
+                    <ul>
+                        <li>Configuration de <b>firewalld</b>, <b>SELinux</b> et <b>OpenSSH</b> pour sécuriser un système RHEL.</li>
+                        <li>Application de techniques de durcissement pour renforcer la sécurité et minimiser les vulnérabilités.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://github.com/MOREQASSE/RHEL-System-Security" target="_blank" rel="noopener">Voir</a>
+                    <div class="gallery-label">
+                      <span class="label-title">Projet de Sécurité des Systèmes RHEL</span><br>
+                      <span class="label-meta">Nov 2024 &mdash; Membre d'équipe</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="2" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/Wavelet transformation.png" alt="Transformée en ondelettes" class="project-image" />
+                    </div>
+                    <h4>Transformée en ondelettes pour le traitement du signal et de l'image</h4>
+                    <p class="project-meta">Chef d'équipe &middot; Déc 2024</p>
+                    <ul>
+                        <li>Utilisation de la <b>transformée en ondelettes</b> pour la compression audio et image efficace.</li>
+                        <li>Développement d'une application <b>MATLAB</b> pour comparer l'efficacité de différentes familles d'ondelettes.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://github.com/MOREQASSE/WaveletProject" target="_blank" rel="noopener">Voir</a>
+                    <div class="gallery-label">
+                      <span class="label-title">Transformée en ondelettes</span><br>
+                      <span class="label-meta">Déc 2024 &mdash; Chef d'équipe</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="3" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/S&M Restaurant.png" alt="Site web S&M Restaurant" class="project-image" />
+                    </div>
+                    <h4>Développement et personnalisation de site web</h4>
+                    <p class="project-meta">Chef d'équipe | Restaurant S&M &middot; Jan 2025</p>
+                    <ul>
+                        <li>Création et personnalisation d'un site web de restaurant avec <b>WordPress</b>, HTML, CSS et PHP.</li>
+                        <li>Mise en œuvre de diaporamas dynamiques, menus, galeries et pages de contact interactives.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://moreqasse.github.io/SM-Website/" target="_blank" rel="noopener">Voir</a>
+                    <div class="gallery-label">
+                      <span class="label-title">Site web S&M Restaurant</span><br>
+                      <span class="label-meta">Jan 2025 &mdash; Chef d'équipe, S&M Restaurant</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow right" aria-label="Projet suivant" tabindex="0">&#8594;</button>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h3><span class="accent-bar"></span>Compétences</h3>
+        <div class="skills-chips">
+            <span class="chip">Gestion de projet</span>
+            <span class="chip">Prise de parole en public</span>
+            <span class="chip">Excel</span>
+            <span class="chip">PowerPoint</span>
+            <span class="chip">Word</span>
+            <span class="chip">Python</span>
+            <span class="chip">C</span>
+            <span class="chip">Matlab</span>
+            <span class="chip">Wordpress</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Javascript</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Linux</span>
+            <span class="chip">Enseignement</span>
+            <span class="chip">Design graphique</span>
+        </div>
+        <h4 class="skills-subtitle">Langues</h4>
+        <div class="languages-badges">
+            <span class="badge">Anglais : C1+</span>
+            <span class="badge">Français : B2</span>
+            <span class="badge">Arabe : Natif</span>
+        </div>
+        <h4 class="skills-subtitle">Certifications</h4>
+        <ul class="certifications-list">
+            <li><b>MySQL pour débutants</b> (Meta Brains, Udemy)</li>
+            <li><b>Fondamentaux des réseaux informatiques</b> (Cyber Quince, Udemy)</li>
+            <li><b>Essentiels de la transmission de données</b> (Udemy)</li>
+            <li><b>Bootcamp Cybersécurité</b> (CyberProStudy Ltd., Udemy)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-form-section">
+        <h3><span class="accent-bar"></span>Contact</h3>
+        <p class="contact-cta">Intéressé par une collaboration ou une question ? Remplissez le formulaire ci-dessous ou contactez-moi via les réseaux sociaux !</p>
+        <form id="contactForm" action="https://formspree.io/f/yourFormID" method="POST" autocomplete="on">
+            <div class="form-group">
+                <label for="name">Nom<span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="Votre nom" />
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email<span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="vous@email.com" />
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Message<span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" required placeholder="Votre message"></textarea>
+                <span class="error-message" id="messageError"></span>
+            </div>
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit">Envoyer</button>
+            <div id="formStatus"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <span>&copy; 2024 Mohammed Reqasse</span>
+            <div class="footer-social-icons">
+                <a href="mailto:reqasse@gmail.com" title="Email"><img src="https://icongr.am/fontawesome/envelope.svg?size=18&color=007bff" alt="Email"></a>
+                <a href="https://linkedin.com/in/mohammed-reqasse-860a03219" title="LinkedIn" target="_blank"><img src="https://icongr.am/fontawesome/linkedin.svg?size=18&color=007bff" alt="LinkedIn"></a>
+                <a href="https://wa.me/212700821340" title="WhatsApp" target="_blank"><img src="https://icongr.am/fontawesome/whatsapp.svg?size=18&color=007bff" alt="WhatsApp"></a>
+            </div>
+            <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});">Haut de page</button>
+        </div>
+    </footer>
+
+    <!-- FinisherHeader Particle Animation -->
+    <script src="finisher-header.es5.min.js"></script>
+    <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 80;
+            if (pageYOffset >= sectionTop) {
+                current = section.getAttribute('id');
+            }
+        });
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+    });
+    document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+      let valid = true;
+      if (!this.name.value.trim()) {
+        document.getElementById('nameError').textContent = 'Le nom est requis.';
+        valid = false;
+      } else {
+        document.getElementById('nameError').textContent = '';
+      }
+      const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+      if (!this.email.value.trim()) {
+        document.getElementById('emailError').textContent = 'Email requis.';
+        valid = false;
+      } else if (!emailPattern.test(this.email.value)) {
+        document.getElementById('emailError').textContent = 'Adresse email invalide.';
+        valid = false;
+      } else {
+        document.getElementById('emailError').textContent = '';
+      }
+      if (!this.message.value.trim()) {
+        document.getElementById('messageError').textContent = 'Message requis.';
+        valid = false;
+      } else {
+        document.getElementById('messageError').textContent = '';
+      }
+      if (!valid) {
+        e.preventDefault();
+        return false;
+      }
+      document.getElementById('formStatus').textContent = 'Envoi...';
+    });
+    // Theme toggle logic
+    (function() {
+      const body = document.body;
+      const toggleBtn = document.getElementById('theme-toggle');
+      const icon = document.getElementById('theme-icon');
+      const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      function setTheme(mode) {
+        if (mode === 'dark') {
+          body.classList.add('dark-mode');
+          icon.textContent = '☀️';
+        } else {
+          body.classList.remove('dark-mode');
+          icon.textContent = '🌙';
+        }
+      }
+      function getSavedTheme() {
+        return localStorage.getItem('theme-mode');
+      }
+      function saveTheme(mode) {
+        localStorage.setItem('theme-mode', mode);
+      }
+      function getPreferredTheme() {
+        const saved = getSavedTheme();
+        if (saved) return saved;
+        return darkQuery.matches ? 'dark' : 'light';
+      }
+      setTheme(getPreferredTheme());
+      toggleBtn.addEventListener('click', function() {
+        const current = body.classList.contains('dark-mode') ? 'dark' : 'light';
+        const next = current === 'dark' ? 'light' : 'dark';
+        setTheme(next);
+        saveTheme(next);
+      });
+      darkQuery.addEventListener('change', e => {
+        if (!getSavedTheme()) setTheme(e.matches ? 'dark' : 'light');
+      });
+    })();
+    // Project Carousel Logic
+    (function() {
+      const cards = document.querySelectorAll('.projects-carousel .project-card');
+      const leftArrow = document.querySelector('.carousel-arrow.left');
+      const rightArrow = document.querySelector('.carousel-arrow.right');
+      let current = 0;
+      function showCard(idx, direction) {
+        cards.forEach((card, i) => {
+          if (i === idx) {
+            card.style.display = '';
+            card.style.opacity = '1';
+            card.style.transform = direction === 'left' ? 'translateX(-40px)' : direction === 'right' ? 'translateX(40px)' : 'none';
+            setTimeout(() => {
+              card.style.transform = 'translateX(0)';
+            }, 10);
+          } else {
+            card.style.opacity = '0';
+            card.style.display = 'none';
+            card.style.transform = 'none';
+          }
+        });
+      }
+      function nextCard() {
+        const prev = current;
+        current = (current + 1) % cards.length;
+        showCard(current, 'right');
+      }
+      function prevCard() {
+        const prev = current;
+        current = (current - 1 + cards.length) % cards.length;
+        showCard(current, 'left');
+      }
+      leftArrow.addEventListener('click', prevCard);
+      rightArrow.addEventListener('click', nextCard);
+      leftArrow.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') prevCard(); });
+      rightArrow.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') nextCard(); });
+      // Swipe for mobile
+      let startX = null;
+      const carousel = document.querySelector('.projects-carousel');
+      carousel.addEventListener('touchstart', e => {
+        if (e.touches.length === 1) startX = e.touches[0].clientX;
+      });
+      carousel.addEventListener('touchend', e => {
+        if (startX !== null && e.changedTouches.length === 1) {
+          const dx = e.changedTouches[0].clientX - startX;
+          if (dx > 40) prevCard();
+          else if (dx < -40) nextCard();
+        }
+        startX = null;
+      });
+      // Show first card
+      showCard(current);
+    })();
+    (function() {
+      function getPalette() {
+        const isDark = document.body.classList.contains('dark-mode');
+        return isDark ? {
+          background: '#23243a',
+          particles: [ '#4ea1ff', '#007bff', '#c77dff', '#23243a' ]
+        } : {
+          background: '#e3f0ff',
+          particles: [ '#007bff', '#4ea1ff', '#7d0c79', '#f7e3ff' ]
+        };
+      }
+      function launchFinisher() {
+        if (window.finisherHeaderInstance) window.finisherHeaderInstance = null;
+        document.querySelectorAll('#finisher-canvas').forEach(e => e.remove());
+        const palette = getPalette();
+        window.finisherHeaderInstance = new FinisherHeader({
+          count: 35,
+          size: { min: 30, max: 55, pulse: 0 },
+          speed: { x: { min: 0.6, max: 1.2 }, y: { min: 0.6, max: 1.2 } },
+          colors: {
+            background: palette.background,
+            particles: palette.particles
+          },
+          blending: 'overlay',
+          opacity: { center: 0.7, edge: 0.2 },
+          skew: 0,
+          shapes: [ 'c', 's', 't' ],
+          className: 'finisher-header'
+        });
+      }
+      launchFinisher();
+      // Re-launch on theme change
+      const themeToggle = document.getElementById('theme-toggle');
+      if (themeToggle) themeToggle.addEventListener('click', function() {
+        setTimeout(launchFinisher, 350);
+      });
+    })();
+    </script>
+</body>
+</html>

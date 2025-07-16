@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد رقاس - الموقع الشخصي</title>
+    <link rel="stylesheet" href="./styleopti2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل العلوي مع زر تغيير اللغة -->
+    <nav class="main-navbar">
+        <div class="nav-container">
+            <span class="nav-logo">محمد رقاس</span>
+            <ul class="nav-links">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#about">من أنا</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="window.location.href='index.html'" title="English"><img src="https://flagcdn.com/gb.svg" alt="English" class="flag-icon"> EN</button>
+                <button onclick="window.location.href='indexFR.html'" title="Français"><img src="https://flagcdn.com/fr.svg" alt="Français" class="flag-icon"> FR</button>
+                <button onclick="window.location.href='indexAR.html'" title="العربية"><img src="https://flagcdn.com/ma.svg" alt="العربية" class="flag-icon"> AR</button>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="تبديل الوضع الفاتح/الداكن" title="تبديل الوضع الفاتح/الداكن" style="margin-left:16px;background:none;border:none;cursor:pointer;font-size:1.5em;display:flex;align-items:center;">
+                <span id="theme-icon" aria-hidden="true">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- قسم البطل -->
+    <section id="hero" class="hero-section" style="text-align:right;">
+        <div class="finisher-header"></div>
+        <div class="hero-content">
+            <img src="https://i.ibb.co/LXLK3D5c/Whats-App-Image-2025-04-11-at-15-03-59-12f7a20f-removebg-preview.png" alt="محمد رقاس" class="hero-profile-image">
+            <h1>محمد رقاس</h1>
+            <h2>طالب هندسة الشبكات والاتصالات</h2>
+            <p class="hero-intro">شغوف بالتكنولوجيا والابتكار وصناعة الحلول التي تصنع الفرق. مرحباً بك في موقعي الشخصي!</p>
+            <div class="social-icons-bar">
+                <a href="mailto:reqasse@gmail.com" title="بريد إلكتروني" class="social-icon email"><img src="https://icongr.am/fontawesome/envelope.svg?size=24&color=007bff" alt="بريد إلكتروني"></a>
+                <a href="https://linkedin.com/in/mohammed-reqasse-860a03219" title="لينكدإن" class="social-icon linkedin" target="_blank"><img src="https://icongr.am/fontawesome/linkedin.svg?size=24&color=007bff" alt="لينكدإن"></a>
+                <a href="https://wa.me/212700821340" title="واتساب" class="social-icon whatsapp" target="_blank"><img src="https://icongr.am/fontawesome/whatsapp.svg?size=24&color=007bff" alt="واتساب"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم من أنا -->
+    <section id="about" class="about-section" style="text-align:right;">
+        <h3><span class="accent-bar"></span>من أنا</h3>
+        <p>أنا طالب في المدرسة الوطنية للعلوم التطبيقية بآسفي، المغرب، أبلغ من العمر 21 عامًا وأتخصص في هندسة الشبكات والاتصالات. أحب التعلم واكتساب مهارات جديدة، ومواجهة التحديات، والعمل الجماعي. اهتماماتي تشمل الأمن السيبراني، تطوير الويب، وإدارة الشبكات. أبحث حاليًا عن تدريب صيفي لتطبيق وتطوير مهاراتي في بيئة عملية.</p>
+    </section>
+
+    <!-- قسم التعليم -->
+    <section id="education" class="education-section" style="text-align:right;">
+        <h3><span class="accent-bar"></span>التعليم</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h4>المدرسة الوطنية للعلوم التطبيقية - آسفي</h4>
+                <p class="project-meta">هندسة الشبكات والاتصالات &middot; 2022–الآن</p>
+                <ul>
+                    <li>دراسة هندسة الشبكات والاتصالات (قيد الإنجاز).</li>
+                    <li>دروس: الأمن السيبراني، إدارة الشبكات، معالجة الإشارة.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h4>الكلية متعددة التخصصات بآسفي</h4>
+                <p class="project-meta">الفيزياء | إجازة SMP &middot; 2021–2022</p>
+                <ul>
+                    <li>إجازة في العلوم الرياضية والفيزيائية (SMP).</li>
+                    <li>تعزيز الأسس في الفيزياء والرياضيات والمعلوماتية.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h4>ثانوية عقبة بن نافع - البير الجديد</h4>
+                <p class="project-meta">البكالوريا في العلوم الفيزيائية &middot; 2020–2021</p>
+                <ul>
+                    <li>الحصول على شهادة البكالوريا في العلوم الفيزيائية.</li>
+                    <li>أسس قوية في الرياضيات والفيزياء والكيمياء.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="projects-section" style="text-align:right;">
+        <h3><span class="accent-bar"></span>المشاريع <span class="slide-message">اسحب لرؤية المزيد &larr;</span></h3>
+        <div class="projects-carousel-container">
+            <button class="carousel-arrow left" aria-label="المشروع التالي" tabindex="0">&#8592;</button>
+            <div class="projects-carousel">
+                <div class="project-card art-frame" data-index="0">
+                    <div class="project-image-placeholder">
+                      <img src="images/TaskExtreme.png" alt="TaskExtreme - مدير المهام الذكي بالذكاء الاصطناعي" class="project-image" />
+                    </div>
+                    <h4>TaskExtreme - مدير المهام الذكي بالذكاء الاصطناعي</h4>
+                    <p class="project-meta">مشروع شخصي &middot; 2025 يونيو</p>
+                    <ul>
+                        <li>تطوير تطبيق حديث لإدارة المهام مع توليد ذكي للمهام باستخدام الذكاء الاصطناعي.</li>
+                        <li>ميزات: إدارة حسب التقويم، تصدير PDF، وضع التركيز (بومودورو)، سمات فاتحة/داكنة.</li>
+                        <li>خلفية Node.js/Express لتوليد المهام بالذكاء الاصطناعي عبر Azure GPT-4، يدعم الوصف وPDF وGoogle Sheets.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://moreqasse.github.io/TaskExtreme.ai/" target="_blank" rel="noopener">عرض</a>
+                    <div class="gallery-label">
+                      <span class="label-title">TaskExtreme - مدير المهام الذكي</span><br>
+                      <span class="label-meta">2025 يونيو &mdash; مشروع شخصي</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="1" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/RHEL System Security.png" alt="مشروع أمان نظام RHEL" class="project-image" />
+                    </div>
+                    <h4>مشروع أمان نظام RHEL</h4>
+                    <p class="project-meta">عضو فريق &middot; نونبر 2024</p>
+                    <ul>
+                        <li>تهيئة <b>firewalld</b>، <b>SELinux</b>، و<b>OpenSSH</b> لتأمين نظام RHEL.</li>
+                        <li>تطبيق تقنيات تعزيز الأمان لتقليل الثغرات.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://github.com/MOREQASSE/RHEL-System-Security" target="_blank" rel="noopener">عرض</a>
+                    <div class="gallery-label">
+                      <span class="label-title">مشروع أمان نظام RHEL</span><br>
+                      <span class="label-meta">نونبر 2024 &mdash; عضو فريق</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="2" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/Wavelet transformation.png" alt="تحويل الموجة في معالجة الإشارات والصور" class="project-image" />
+                    </div>
+                    <h4>تحويل الموجة في معالجة الإشارات والصور</h4>
+                    <p class="project-meta">قائد الفريق &middot; دجنبر 2024</p>
+                    <ul>
+                        <li>استخدام تقنيات <b>تحويل الموجة</b> لضغط الصوت والصور بكفاءة.</li>
+                        <li>تطوير تطبيق <b>MATLAB</b> لمقارنة كفاءة الضغط لعائلات موجية مختلفة.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://github.com/MOREQASSE/WaveletProject" target="_blank" rel="noopener">عرض</a>
+                    <div class="gallery-label">
+                      <span class="label-title">تحويل الموجة</span><br>
+                      <span class="label-meta">دجنبر 2024 &mdash; قائد الفريق</span>
+                    </div>
+                </div>
+                <div class="project-card art-frame" data-index="3" style="display:none;">
+                    <div class="project-image-placeholder">
+                      <img src="images/S&M Restaurant.png" alt="موقع مطعم S&M" class="project-image" />
+                    </div>
+                    <h4>تطوير وتخصيص موقع ويب</h4>
+                    <p class="project-meta">قائد الفريق | مطعم S&M &middot; يناير 2025</p>
+                    <ul>
+                        <li>إنشاء وتخصيص موقع مطعم S&M باستخدام <b>ووردبريس</b> وHTML وCSS وPHP.</li>
+                        <li>تنفيذ ميزات مثل الشرائح الديناميكية، القوائم، المعارض، وصفحات تواصل تفاعلية.</li>
+                    </ul>
+                    <a class="gallery-view-btn" href="https://moreqasse.github.io/SM-Website/" target="_blank" rel="noopener">عرض</a>
+                    <div class="gallery-label">
+                      <span class="label-title">موقع مطعم S&M</span><br>
+                      <span class="label-meta">يناير 2025 &mdash; قائد الفريق، مطعم S&M</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow right" aria-label="المشروع السابق" tabindex="0">&#8594;</button>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills-section" style="text-align:right;">
+        <h3><span class="accent-bar"></span>المهارات</h3>
+        <div class="skills-chips">
+            <span class="chip">إدارة المشاريع</span>
+            <span class="chip">التحدث أمام الجمهور</span>
+            <span class="chip">إكسل</span>
+            <span class="chip">باوربوينت</span>
+            <span class="chip">وورد</span>
+            <span class="chip">بايثون</span>
+            <span class="chip">سي</span>
+            <span class="chip">ماتلاب</span>
+            <span class="chip">ووردبريس</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">جافاسكريبت</span>
+            <span class="chip">SQL</span>
+            <span class="chip">لينكس</span>
+            <span class="chip">التدريس</span>
+            <span class="chip">التصميم الجرافيكي</span>
+        </div>
+        <h4 class="skills-subtitle">اللغات</h4>
+        <div class="languages-badges">
+            <span class="badge">الإنجليزية: C1+</span>
+            <span class="badge">الفرنسية: B2</span>
+            <span class="badge">العربية: اللغة الأم</span>
+        </div>
+        <h4 class="skills-subtitle">الشهادات</h4>
+        <ul class="certifications-list">
+            <li><b>MySQL للمبتدئين</b> (Meta Brains, Udemy)</li>
+            <li><b>أساسيات شبكات الحاسوب</b> (Cyber Quince, Udemy)</li>
+            <li><b>أساسيات نقل البيانات</b> (Udemy)</li>
+            <li><b>معسكر الأمن السيبراني</b> (CyberProStudy Ltd., Udemy)</li>
+        </ul>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact-form-section" style="text-align:right;">
+        <h3><span class="accent-bar"></span>تواصل</h3>
+        <p class="contact-cta">مهتم بالتعاون أو لديك سؤال؟ املأ النموذج أدناه أو تواصل معي عبر وسائل التواصل الاجتماعي!</p>
+        <form id="contactForm" action="https://formspree.io/f/yourFormID" method="POST" autocomplete="on">
+            <div class="form-group">
+                <label for="name">الاسم<span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required placeholder="اسمك" />
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني<span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="you@email.com" />
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">رسالتك<span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" required placeholder="اكتب رسالتك"></textarea>
+                <span class="error-message" id="messageError"></span>
+            </div>
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit">إرسال</button>
+            <div id="formStatus"></div>
+        </form>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <span>&copy; 2024 محمد رقاس</span>
+            <div class="footer-social-icons">
+                <a href="mailto:reqasse@gmail.com" title="بريد إلكتروني"><img src="https://icongr.am/fontawesome/envelope.svg?size=18&color=007bff" alt="بريد إلكتروني"></a>
+                <a href="https://linkedin.com/in/mohammed-reqasse-860a03219" title="لينكدإن" target="_blank"><img src="https://icongr.am/fontawesome/linkedin.svg?size=18&color=007bff" alt="لينكدإن"></a>
+                <a href="https://wa.me/212700821340" title="واتساب" target="_blank"><img src="https://icongr.am/fontawesome/whatsapp.svg?size=18&color=007bff" alt="واتساب"></a>
+            </div>
+            <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});">العودة للأعلى</button>
+        </div>
+    </footer>
+
+    <!-- Project Carousel Logic for RTL -->
+    <script>
+    (function() {
+      const cards = document.querySelectorAll('.projects-carousel .project-card');
+      const leftArrow = document.querySelector('.carousel-arrow.left');
+      const rightArrow = document.querySelector('.carousel-arrow.right');
+      let current = 0;
+      function showCard(idx, direction) {
+        cards.forEach((card, i) => {
+          if (i === idx) {
+            card.style.display = '';
+            card.style.opacity = '1';
+            card.style.transform = direction === 'left' ? 'translateX(-40px)' : direction === 'right' ? 'translateX(40px)' : 'none';
+            setTimeout(() => {
+              card.style.transform = 'translateX(0)';
+            }, 10);
+          } else {
+            card.style.opacity = '0';
+            card.style.display = 'none';
+            card.style.transform = 'none';
+          }
+        });
+      }
+      function nextCard() {
+        current = (current + 1) % cards.length;
+        showCard(current, 'left');
+      }
+      function prevCard() {
+        current = (current - 1 + cards.length) % cards.length;
+        showCard(current, 'right');
+      }
+      leftArrow.addEventListener('click', nextCard);
+      rightArrow.addEventListener('click', prevCard);
+      leftArrow.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') nextCard(); });
+      rightArrow.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') prevCard(); });
+      // Swipe for mobile
+      let startX = null;
+      const carousel = document.querySelector('.projects-carousel');
+      carousel.addEventListener('touchstart', e => {
+        if (e.touches.length === 1) startX = e.touches[0].clientX;
+      });
+      carousel.addEventListener('touchend', e => {
+        if (startX !== null && e.changedTouches.length === 1) {
+          const dx = e.changedTouches[0].clientX - startX;
+          if (dx > 40) prevCard(); // Swipe Right for Prev
+          else if (dx < -40) nextCard(); // Swipe Left for Next
+        }
+        startX = null;
+      });
+      // Show first card
+      showCard(current);
+    })();
+    </script>
+    <!-- Theme Toggle Logic (fixed) -->
+    <script>
+    (function() {
+      const body = document.body;
+      const toggleBtn = document.getElementById('theme-toggle');
+      const icon = document.getElementById('theme-icon');
+      const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      function setTheme(mode) {
+        if (mode === 'dark') {
+          body.classList.add('dark-mode');
+          icon.textContent = '☀️';
+        } else {
+          body.classList.remove('dark-mode');
+          icon.textContent = '🌙';
+        }
+      }
+      function getSavedTheme() {
+        return localStorage.getItem('theme-mode');
+      }
+      function saveTheme(mode) {
+        localStorage.setItem('theme-mode', mode);
+      }
+      function getPreferredTheme() {
+        const saved = getSavedTheme();
+        if (saved) return saved;
+        return darkQuery.matches ? 'dark' : 'light';
+      }
+      setTheme(getPreferredTheme());
+      toggleBtn.addEventListener('click', function() {
+        const current = body.classList.contains('dark-mode') ? 'dark' : 'light';
+        const next = current === 'dark' ? 'light' : 'dark';
+        setTheme(next);
+        saveTheme(next);
+      });
+      darkQuery.addEventListener('change', e => {
+        if (!getSavedTheme()) setTheme(e.matches ? 'dark' : 'light');
+      });
+    })();
+    </script>
+
+    <!-- FinisherHeader Particle Animation -->
+    <script src="finisher-header.es5.min.js"></script>
+    <script>
+    (function() {
+      function getPalette() {
+        const isDark = document.body.classList.contains('dark-mode');
+        return isDark ? {
+          background: '#23243a',
+          particles: [ '#00e676', '#43a047', '#b2ff59', '#23243a' ]
+        } : {
+          background: '#e8f5e9',
+          particles: [ '#43a047', '#00e676', '#b2ff59', '#f1f8e9' ]
+        };
+      }
+      function launchFinisher() {
+        if (window.finisherHeaderInstance) window.finisherHeaderInstance = null;
+        document.querySelectorAll('#finisher-canvas').forEach(e => e.remove());
+        const palette = getPalette();
+        window.finisherHeaderInstance = new FinisherHeader({
+          count: 35,
+          size: { min: 30, max: 55, pulse: 0 },
+          speed: { x: { min: 0.6, max: 1.2 }, y: { min: 0.6, max: 1.2 } },
+          colors: {
+            background: palette.background,
+            particles: palette.particles
+          },
+          blending: 'overlay',
+          opacity: { center: 0.7, edge: 0.2 },
+          skew: 0,
+          shapes: [ 'c', 's', 't' ],
+          className: 'finisher-header'
+        });
+      }
+      launchFinisher();
+      // Re-launch on theme change
+      const themeToggle = document.getElementById('theme-toggle');
+      if (themeToggle) themeToggle.addEventListener('click', function() {
+        setTimeout(launchFinisher, 350);
+      });
+    })();
+    </script>
+</body>
+</html>
